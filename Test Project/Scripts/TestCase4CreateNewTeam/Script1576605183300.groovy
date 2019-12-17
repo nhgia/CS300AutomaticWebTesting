@@ -16,14 +16,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://cs300testautomatic.herokuapp.com/')
+WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cs300testautomatic.herokuapp.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'), 'giabeuu@gmail.com')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'giabeuu@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'), 
-    'GoUae4B8Jrc=')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'GoUae4B8Jrc=')
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
+WebUI.sendKeys(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Create a new team'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Team Name_teamNameInput'), 'FirstTeam1')
+
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Next'))
+
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Finish'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - FirstTeam Mattermost/div_Beginning of Town SquareWelcome to Town_3f9c18'))
+
+WebUI.closeBrowser()
 
