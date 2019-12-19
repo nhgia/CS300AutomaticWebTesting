@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_All team communication in one place s_2f2733</name>
+   <name>input_Username_username</name>
    <tag></tag>
-   <elementGuidId>f38b8d56-c4ac-409b-9c7e-9032325f6c66</elementGuidId>
+   <elementGuidId>d18218a3-66a8-46f3-bdcf-036f4a293456</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='loginPassword']</value>
+         <value>//input[@id='username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,69 +24,76 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>loginPassword</value>
+      <value>username</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>password</value>
+      <value>22</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control a11y--active a11y--focused</value>
+      <value>form-control a11y--active</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>type</name>
       <type>Main</type>
-      <value>password</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>spellcheck</name>
+      <name>autocapitalize</name>
       <type>Main</type>
-      <value>false</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>aria-label</name>
       <type>Main</type>
-      <value>Password</value>
+      <value>Username</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>gia</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;loginPassword&quot;)</value>
+      <value>id(&quot;username&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='loginPassword']</value>
+      <value>//input[@id='username']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='login_section']/div/div[2]/div/form/div/div[2]/input</value>
+      <value>//div[@id='generalSettings']/div[2]/ul/li[2]/ul/li/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
+      <value>//li/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>
