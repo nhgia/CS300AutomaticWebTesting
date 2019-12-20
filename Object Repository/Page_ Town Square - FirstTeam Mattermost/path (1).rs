@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>path</name>
+   <name>path (1)</name>
    <tag></tag>
-   <elementGuidId>efa1e416-ca15-4784-a0bd-7d5d8ef17a47</elementGuidId>
+   <elementGuidId>f40bb97a-2912-4ab1-a706-fc15b433f87f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

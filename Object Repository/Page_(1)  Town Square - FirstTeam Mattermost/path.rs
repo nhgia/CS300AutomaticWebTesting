@@ -3,10 +3,11 @@
    <description></description>
    <name>path</name>
    <tag></tag>
-   <elementGuidId>efa1e416-ca15-4784-a0bd-7d5d8ef17a47</elementGuidId>
+   <elementGuidId>22742f16-abf1-44da-9bb6-3e68d35885b0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
