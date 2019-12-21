@@ -1,0 +1,54 @@
+{"testCaseName":"Test Cases/TestCase01LoginSuccessfully","testCaseId":"Test Cases/TestCase01LoginSuccessfully"}
+{"testCaseName":"Test Cases/TestCase02LogoutSuccessfully","testCaseId":"Test Cases/TestCase02LogoutSuccessfully"}
+{"testCaseName":"Test Cases/TestCase03LoginWrongPass","testCaseId":"Test Cases/TestCase03LoginWrongPass"}
+{"testCaseName":"Test Cases/TestCase04CreateNewTeam","testCaseId":"Test Cases/TestCase04CreateNewTeam"}
+{"testCaseName":"Test Cases/TestCase05ChatSomeThingOnMainChannel","testCaseId":"Test Cases/TestCase05ChatSomeThingOnMainChannel"}
+{"testCaseName":"Test Cases/TestCase06CreateDirectMessage","testCaseId":"Test Cases/TestCase06CreateDirectMessage"}
+{"testCaseName":"Test Cases/TestCase07ChatSomeThingOnDirectMessage","testCaseId":"Test Cases/TestCase07ChatSomeThingOnDirectMessage"}
+{"testCaseName":"Test Cases/TestCase08TeamSettingsAddMembersToTeam","testCaseId":"Test Cases/TestCase08TeamSettingsAddMembersToTeam"}
+{"testCaseName":"Test Cases/TestCase09TeamSettingsRemoveMembersFromTeam","testCaseId":"Test Cases/TestCase09TeamSettingsRemoveMembersFromTeam"}
+{"testCaseName":"Test Cases/TestCase10TeamSettingsTeamName","testCaseId":"Test Cases/TestCase10TeamSettingsTeamName"}
+{"testCaseName":"Test Cases/TestCase11AccountSettingsEditUsername","testCaseId":"Test Cases/TestCase11AccountSettingsEditUsername"}
+{"testCaseName":"Test Cases/TestCase12AccountSettingsEditUsername(illegal)","testCaseId":"Test Cases/TestCase12AccountSettingsEditUsername(illegal)"}
+{"testCaseName":"Test Cases/TestCase13AccountSettingsFullName","testCaseId":"Test Cases/TestCase13AccountSettingsFullName"}
+{"testCaseName":"Test Cases/TestCase14AccountSettingsNickname","testCaseId":"Test Cases/TestCase14AccountSettingsNickname"}
+{"testCaseName":"Test Cases/TestCase15GetInviteLink","testCaseId":"Test Cases/TestCase15GetInviteLink"}
+{"testCaseName":"Test Cases/TestCase16AddMembersToChannel","testCaseId":"Test Cases/TestCase16AddMembersToChannel"}
+{"testCaseName":"Test Cases/TestCase17RemoveMemberFromChannel","testCaseId":"Test Cases/TestCase17RemoveMemberFromChannel"}
+{"testCaseName":"Test Cases/TestCase18CreatePrivateChannel","testCaseId":"Test Cases/TestCase18CreatePrivateChannel"}
+{"testCaseName":"Test Cases/TestCase19CreatePublicChannel","testCaseId":"Test Cases/TestCase19CreatePublicChannel"}
+{"testCaseName":"Test Cases/TestCase20LeaveChannel","testCaseId":"Test Cases/TestCase20LeaveChannel"}
+{"testCaseName":"Test Cases/TestCase21ForgotPass","testCaseId":"Test Cases/TestCase21ForgotPass"}
+{"testCaseName":"Test Cases/TestCase22PinPost","testCaseId":"Test Cases/TestCase22PinPost"}
+{"testCaseName":"Test Cases/TestCase23Un-PinPost","testCaseId":"Test Cases/TestCase23Un-PinPost"}
+{"testCaseName":"Test Cases/TestCase24AddNewHeaderOnOff-TopicChannel","testCaseId":"Test Cases/TestCase24AddNewHeaderOnOff-TopicChannel"}
+{"testCaseName":"Test Cases/TestCase25EditHeaderOnOff-TopicChannel","testCaseId":"Test Cases/TestCase25EditHeaderOnOff-TopicChannel"}
+{"testCaseName":"Test Cases/TestCase26RemoveHeaderOnOff-TopicChannel","testCaseId":"Test Cases/TestCase26RemoveHeaderOnOff-TopicChannel"}
+{"testCaseName":"Test Cases/TestCase27Add(Remove)Off-TopicChannelTo(From)Favorites","testCaseId":"Test Cases/TestCase27Add(Remove)Off-TopicChannelTo(From)Favorites"}
+{"testCaseName":"Test Cases/TestCase28CreateMoreTeam(NewTeamTesting)","testCaseId":"Test Cases/TestCase28CreateMoreTeam(NewTeamTesting)"}
+{"testCaseName":"Test Cases/TestCase29LeaveTeam(NewTeamTesting)","testCaseId":"Test Cases/TestCase29LeaveTeam(NewTeamTesting)"}
+{"testCaseName":"Test Cases/TestCase30JoinAnotherTeam(NewTeamTesting)","testCaseId":"Test Cases/TestCase30JoinAnotherTeam(NewTeamTesting)"}
+{"testCaseName":"Test Cases/TestCase31RemoveDirectMessage","testCaseId":"Test Cases/TestCase31RemoveDirectMessage"}
+{"testCaseName":"Test Cases/TestCase32ArchiveChannel","testCaseId":"Test Cases/TestCase32ArchiveChannel"}
+{"testCaseName":"Test Cases/TestCase33ViewChannelInfo","testCaseId":"Test Cases/TestCase33ViewChannelInfo"}
+{"testCaseName":"Test Cases/TestCase34MuteChannel","testCaseId":"Test Cases/TestCase34MuteChannel"}
+{"testCaseName":"Test Cases/TestCase35UnmuteChannel","testCaseId":"Test Cases/TestCase35UnmuteChannel"}
+{"testCaseName":"Test Cases/TestCase36EditNotificationPreferencesChannel","testCaseId":"Test Cases/TestCase36EditNotificationPreferencesChannel"}
+{"testCaseName":"Test Cases/TestCase37SearchMessage","testCaseId":"Test Cases/TestCase37SearchMessage"}
+{"testCaseName":"Test Cases/TestCase38AddHeaderDirectMessage","testCaseId":"Test Cases/TestCase38AddHeaderDirectMessage"}
+{"testCaseName":"Test Cases/TestCase39EditHeaderDirectMessage","testCaseId":"Test Cases/TestCase39EditHeaderDirectMessage"}
+{"testCaseName":"Test Cases/TestCase40DeletePostInChannel","testCaseId":"Test Cases/TestCase40DeletePostInChannel"}
+{"testCaseName":"Test Cases/TestCase41ReplyPostInChannel","testCaseId":"Test Cases/TestCase41ReplyPostInChannel"}
+{"testCaseName":"Test Cases/TestCase42UpdateStatusToOffline","testCaseId":"Test Cases/TestCase42UpdateStatusToOffline"}
+{"testCaseName":"Test Cases/TestCase43ShowPopupOfflineStatus","testCaseId":"Test Cases/TestCase43ShowPopupOfflineStatus"}
+{"testCaseName":"Test Cases/TestCase44UpdateStatusToDoNotDisturb","testCaseId":"Test Cases/TestCase44UpdateStatusToDoNotDisturb"}
+{"testCaseName":"Test Cases/TestCase45ShowPopupDoNotDisturbStatus","testCaseId":"Test Cases/TestCase45ShowPopupDoNotDisturbStatus"}
+{"testCaseName":"Test Cases/TestCase46UpdateStatusToAway","testCaseId":"Test Cases/TestCase46UpdateStatusToAway"}
+{"testCaseName":"Test Cases/TestCase47ShowPopupAwayStatus","testCaseId":"Test Cases/TestCase47ShowPopupAwayStatus"}
+{"testCaseName":"Test Cases/TestCase48AdminConsole","testCaseId":"Test Cases/TestCase48AdminConsole"}
+{"testCaseName":"Test Cases/TestCase49LoginMultipleUsers - Iteration 1","testCaseId":"Test Cases/TestCase49LoginMultipleUsers","bindedValues":{"userPass":"\u0027master\u0027","userEmail":"\u0027giabeuu@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/TestCase49LoginMultipleUsers - Iteration 2","testCaseId":"Test Cases/TestCase49LoginMultipleUsers","bindedValues":{"userPass":"\u002712345\u0027","userEmail":"\u0027pbduy@apcs.vn\u0027"}}
+{"testCaseName":"Test Cases/TestCase49LoginMultipleUsers - Iteration 3","testCaseId":"Test Cases/TestCase49LoginMultipleUsers","bindedValues":{"userPass":"\u002712345\u0027","userEmail":"\u0027dhieu@apcs.vn\u0027"}}
+{"testCaseName":"Test Cases/TestCase49LoginMultipleUsers - Iteration 4","testCaseId":"Test Cases/TestCase49LoginMultipleUsers","bindedValues":{"userPass":"\u002712345\u0027","userEmail":"\u0027mytest@test.com\u0027"}}
+{"testCaseName":"Test Cases/TestCase49LoginMultipleUsers - Iteration 5","testCaseId":"Test Cases/TestCase49LoginMultipleUsers","bindedValues":{"userPass":"\u002712345\u0027","userEmail":"\u0027mytest1@test.com\u0027"}}
+{"testCaseName":"Test Cases/TestCase50ChangeUserPass","testCaseId":"Test Cases/TestCase50ChangeUserPass"}
