@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestCase19CreatePublicChannel</name>
+   <tag>Chanel</tag>
+   <comment></comment>
+   <testCaseGuid>215fbdb1-9c9c-433e-b3e7-441d33436678</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>82897847-062b-45fa-8889-5016d0a69ddd</id>
+      <masked>false</masked>
+      <name>a</name>
+   </variable>
+</TestCaseEntity>
