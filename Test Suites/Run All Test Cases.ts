@@ -145,7 +145,7 @@
    <testCaseLink>
       <guid>8900c6bb-86d6-4ab2-b16d-f806109e4f2a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TestCase20RegisterNewAccount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
