@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestCase49LoginMultipleUsers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1fa9b906-4959-40da-845b-549889d34810</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ecba4206-8064-41ee-bf8b-6fc4c2c83045</id>
+      <masked>false</masked>
+      <name>userEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4b154a35-983f-482d-967e-94b339b19c8b</id>
+      <masked>false</masked>
+      <name>userPass</name>
+   </variable>
+</TestCaseEntity>

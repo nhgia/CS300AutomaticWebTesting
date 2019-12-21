@@ -266,10 +266,10 @@
       <testCaseId>Test Cases/TestCase36EditNotificationPreferencesChannel</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e9f00752-8c0e-45fe-b3cf-46c486c34776</guid>
+      <guid>df0970f8-f87c-4377-9ede-d08d95d69d68</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TestCase42UpdateStatusToOffline</testCaseId>
+      <testCaseId>Test Cases/TestCase37SearchMessage</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>119d4695-83b6-400f-b950-ac180e89ddf7</guid>
@@ -294,5 +294,86 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/TestCase41ReplyPostInChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e9f00752-8c0e-45fe-b3cf-46c486c34776</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase42UpdateStatusToOffline</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>820bf27e-ac25-45a6-bf9d-6d096008d3b3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase42UpdateStatusToOffline</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a9b048c8-3cea-4f0f-918a-f99dd0d6a030</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase43ShowPopupOfflineStatus</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4ba0bcc2-2622-45a9-be86-65b66aee19cc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase44UpdateStatusToDoNotDisturb</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>39db7223-ff21-4d2b-a82f-c3865bdf9489</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase45ShowPopupDoNotDisturbStatus</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cf9b3f69-fe3f-4c5e-a227-b4b51a68abc2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase46UpdateStatusToAway</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e492b5a2-3bf2-4164-ad07-692499736d2c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase47ShowPopupAwayStatus</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f4b07ddd-1a58-420f-9754-63f9ddafe7a5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase48AdminConsole</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>95c35f52-24d7-4bc1-b5d8-e3bfca2539fb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase49LoginMultipleUsers</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3c19c4e1-d148-463e-a652-3e36c008ca5b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/UserLoginInfo</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3c19c4e1-d148-463e-a652-3e36c008ca5b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>ecba4206-8064-41ee-bf8b-6fc4c2c83045</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3c19c4e1-d148-463e-a652-3e36c008ca5b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>4b154a35-983f-482d-967e-94b339b19c8b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>42b3184a-00e3-468f-89b2-aa87ced190ab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase50ChangeUserPass</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

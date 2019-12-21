@@ -20,17 +20,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cs300testautomatic.herokuapp.com/')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (35)'), 'dhieu@apcs.vn')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (37)'), 'dhieu@apcs.vn')
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (35)'), 'iGDxf8hSRT4=')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (37)'), 'iGDxf8hSRT4=')
 
-WebUI.click(findTestObject('Page_Mattermost/span_Sign in (7)'))
+WebUI.click(findTestObject('Page_Mattermost/button_Sign in (25)'))
 
-WebUI.click(findTestObject('Page_Town Square - FirstTeam Mattermost/span_ (3)'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - SecondTeam Mattermost/div_Se'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - FirstTeam Mattermost/div_pbduyapcsvn_more-modal__actions--round'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - SecondTeam Mattermost/form_Search OptionsUse quotation marks to s_06ef4b'))
 
-WebUI.click(findTestObject('Page_Town Square - FirstTeam Mattermost/button_Go (1)'))
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - SecondTeam Mattermost/input_Add a channel description_searchBox'), 
+    'i search chat')
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_Town Square - SecondTeam Mattermost/input_Add a channel description_searchBox'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - SecondTeam Mattermost/i_Search Results_fa fa-sign-out'))
 
 WebUI.closeBrowser()
 
