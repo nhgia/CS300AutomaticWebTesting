@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>130fabf6-027a-4935-9fd7-67677eeb3b0c</dataFileGUID>
-   <dataSourceUrl>C:\Users\Gia Nguyen\Desktop\CS300AutomaticWebTesting\Data\NewUsers.xlsx</dataSourceUrl>
+   <dataSourceUrl>D:\Learning\School\2019-2020-HK1\CS300\CS300AutomaticWebTesting\Data\NewUsers.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

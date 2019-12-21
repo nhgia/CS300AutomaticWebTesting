@@ -145,7 +145,7 @@
    <testCaseLink>
       <guid>8900c6bb-86d6-4ab2-b16d-f806109e4f2a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TestCase20RegisterNewAccount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -340,7 +340,7 @@
    <testCaseLink>
       <guid>95c35f52-24d7-4bc1-b5d8-e3bfca2539fb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TestCase49LoginMultipleUsers</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
