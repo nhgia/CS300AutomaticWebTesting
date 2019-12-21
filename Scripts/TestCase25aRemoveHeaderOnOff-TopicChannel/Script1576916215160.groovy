@@ -20,23 +20,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cs300testautomatic.herokuapp.com/')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (24)'), 'dhieu@apcs.vn')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (26)'), 'giabeuu@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (24)'), 'iGDxf8hSRT4=')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (26)'), 'GoUae4B8Jrc=')
 
-WebUI.click(findTestObject('Page_Mattermost/button_Sign in (13)'))
+WebUI.click(findTestObject('Page_Mattermost/button_Sign in (15)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - FirstTeam Mattermost/div_Fi'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/div_Fi (11)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - FirstTeam Mattermost/a_ChannelAddMember'))
+WebUI.click(findTestObject('Object Repository/Page_ Town Square - FirstTeam Mattermost/a_Off-Topic'))
 
-WebUI.click(findTestObject('Object Repository/Page_ChannelAddMember - FirstTeam Mattermost/span_ChannelAddMember_channelHeaderDropdownIcon'))
+WebUI.click(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/span_Off-Topic_channelHeaderDropdownIcon (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ChannelAddMember - FirstTeam Mattermost/button_Add Members'))
+WebUI.click(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/button_Edit Channel Header (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ChannelAddMember - FirstTeam Mattermost/div_Nguyen Gia (GiaGia)_more-modal__actions--round'))
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Edited Header (1)'), '')
 
-WebUI.click(findTestObject('Object Repository/Page_ChannelAddMember - FirstTeam Mattermost/button_Add'))
+WebUI.click(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/button_Save (3)'))
 
 WebUI.closeBrowser()
 

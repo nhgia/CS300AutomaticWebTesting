@@ -20,23 +20,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cs300testautomatic.herokuapp.com/')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (24)'), 'dhieu@apcs.vn')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (25)'), 'dhieu@apcs.vn')
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (24)'), 'iGDxf8hSRT4=')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (25)'), 'iGDxf8hSRT4=')
 
-WebUI.click(findTestObject('Page_Mattermost/button_Sign in (13)'))
+WebUI.click(findTestObject('Page_Mattermost/button_Sign in (14)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - FirstTeam Mattermost/div_Fi'))
+WebUI.click(findTestObject('Page_Town Square - FirstTeam Mattermost/div_Fi (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - FirstTeam Mattermost/a_ChannelAddMember'))
+WebUI.click(findTestObject('Page_Town Square - FirstTeam Mattermost/a_ChannelAddMember (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ChannelAddMember - FirstTeam Mattermost/span_ChannelAddMember_channelHeaderDropdownIcon'))
+WebUI.click(findTestObject('Page_ChannelAddMember - FirstTeam Mattermost/span_ChannelAddMember_channelHeaderDropdownIcon (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ChannelAddMember - FirstTeam Mattermost/button_Add Members'))
+WebUI.click(findTestObject('Object Repository/Page_ChannelAddMember - FirstTeam Mattermost/button_Manage Members'))
 
-WebUI.click(findTestObject('Object Repository/Page_ChannelAddMember - FirstTeam Mattermost/div_Nguyen Gia (GiaGia)_more-modal__actions--round'))
+WebUI.click(findTestObject('Object Repository/Page_ChannelAddMember - FirstTeam Mattermost/button_Channel MembergiabeuuRemove Member'))
 
-WebUI.click(findTestObject('Object Repository/Page_ChannelAddMember - FirstTeam Mattermost/button_Add'))
+WebUI.click(findTestObject('Object Repository/Page_ChannelAddMember - FirstTeam Mattermost/button_Close'))
 
 WebUI.closeBrowser()
 

@@ -107,6 +107,12 @@
       <testCaseId>Test Cases/TestCase16AddMembersToChannel</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>3d13cff1-e2df-4c21-9cc2-aab5dd14ef21</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase16aRemoveMemberFromChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>3febc833-a4db-4363-abda-31ba551dcb37</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -188,22 +194,22 @@
       <testCaseId>Test Cases/TestCase24AddNewHeaderOnOff-TopicChannel</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a7fc653d-a820-4419-99c7-a73ad9fced10</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TestCase26Add(Remove)Off-TopicChannelTo(From)Favorites</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>45a86e5e-32f4-4347-b514-4e20bc97850a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TestCase25EditHeaderOnOff-TopicChannel</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>00ae1ecd-731f-4afe-88bb-f507fad2d4a7</guid>
+      <guid>64d8b540-302c-4ee4-aaf2-ba32616503e8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TestCase29JoinAnotherTeam(NewTeamTesting)</testCaseId>
+      <testCaseId>Test Cases/TestCase25aRemoveHeaderOnOff-TopicChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a7fc653d-a820-4419-99c7-a73ad9fced10</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase26Add(Remove)Off-TopicChannelTo(From)Favorites</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4ab08c7a-a9bf-433c-893c-ad24d7ef6934</guid>
@@ -218,6 +224,12 @@
       <testCaseId>Test Cases/TestCase28LeaveTeam(NewTeamTesting)</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>00ae1ecd-731f-4afe-88bb-f507fad2d4a7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase29JoinAnotherTeam(NewTeamTesting)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>14457258-664f-48dc-ae7d-374603df181c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -228,5 +240,59 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TestCase31ArchiveChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>21112b7a-11ff-4095-bc6f-6a402d4aebdb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase32ViewChannelInfo</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3f5611a9-e34b-44f1-89f2-4150a0a4dc13</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase33MuteChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f8fcdc49-6622-425e-bd8a-38d26197affa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase34UnmuteChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>990a8c9a-0e5f-42ce-afc0-4de2ee3a004b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase35EditNotificationPreferencesChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e9f00752-8c0e-45fe-b3cf-46c486c34776</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase36ManageMemberInChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>119d4695-83b6-400f-b950-ac180e89ddf7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase37AddHeaderDirectMessage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5df535e0-fcb1-4b05-bd7a-ab18fb394edb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase38EditHeaderDirectMessage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c4e071fd-8aa1-4e95-b9b7-f945c7151281</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase39DeletePostInChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2d64e035-8d9e-431c-985a-9be0f4214c5d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TestCase40ReplyPostInChannel</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
