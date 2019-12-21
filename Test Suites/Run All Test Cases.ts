@@ -169,4 +169,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/TestCase21ForgotPass</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ac8c407b-6990-4421-8488-e40532e61ca7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase22PinPost</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>79b65877-a843-4601-ad3f-a2f0625b97e7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase23Un-PinPost</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7761a12e-f6d3-4954-8a5f-92a3aff250ab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase24AddNewHeaderOnOff-TopicChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a7fc653d-a820-4419-99c7-a73ad9fced10</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase26Add(Remove)Off-TopicChannelTo(From)Favorites</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>45a86e5e-32f4-4347-b514-4e20bc97850a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase25EditHeaderOnOff-TopicChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>00ae1ecd-731f-4afe-88bb-f507fad2d4a7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase29JoinAnotherTeam(NewTeamTesting)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4ab08c7a-a9bf-433c-893c-ad24d7ef6934</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase27CreateMoreTeam(NewTeamTesting)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5eb8612b-2238-4fdb-b1c0-b6308aff3a4b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase28LeaveTeam(NewTeamTesting)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>14457258-664f-48dc-ae7d-374603df181c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase30RemoveDirectMessage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>709641dc-1b10-43dd-88c3-4c45984e2bf2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase31ArchiveChannel</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
