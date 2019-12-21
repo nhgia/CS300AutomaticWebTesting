@@ -20,21 +20,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cs300testautomatic.herokuapp.com/')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'giabeuu@gmail.com')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (48)'), 'giabeuu@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'GoUae4B8Jrc=')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (48)'), 'GoUae4B8Jrc=')
 
-WebUI.sendKeys(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Page_Mattermost/button_Sign in (35)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - FirstTeam Mattermost/div_Fi'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/button_giabeuu_style--none sidebar-header-d_0f4080 (2)'))
 
-WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/svg'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/button_Get Team Invite Link (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - FirstTeam Mattermost/button_Get Team Invite Link'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/button_Copy Link (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - FirstTeam Mattermost/button_Copy Link'))
+WebUI.click(findTestObject('Object Repository/Page_ Town Square - FirstTeam Mattermost/span_Link copied'))
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - FirstTeam Mattermost/span_Close'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/button_Close (1)'))
 
 WebUI.closeBrowser()
 

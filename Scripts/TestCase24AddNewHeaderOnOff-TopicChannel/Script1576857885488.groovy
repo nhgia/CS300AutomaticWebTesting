@@ -20,56 +20,58 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cs300testautomatic.herokuapp.com/')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (14)'), 'giabeuu@gmail.com')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (49)'), 'giabeuu@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (14)'), 'GoUae4B8Jrc=')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (49)'), 'GoUae4B8Jrc=')
 
-WebUI.click(findTestObject('Page_Mattermost/button_Sign in (4)'))
+WebUI.click(findTestObject('Page_Mattermost/button_Sign in (36)'))
 
-WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/div_Fi (6)'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/div_Fi (19)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - FirstTeam Mattermost/span_Off-Topic'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/a_Off-Topic (3)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/span_Add a channel description'))
+WebUI.click(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/span_Add a channel description (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_Edit the Channel Header_edit_textbox'), 
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Edit the Channel Header_edit_textbox (1)'), 
     'T')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_T'), 'Th')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_T (1)'), 'Th')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_Th'), 'Thi')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Th (1)'), 'Thi')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_Thi'), 'This')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Thi (1)'), 'This')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_This'), 'This ')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_This (1)'), 'This ')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_This_1'), 'This i')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_This_1 (1)'), 'This i')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_This i'), 'This is')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_This i (1)'), 'This is')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_This is'), 'This is ')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_This is (1)'), 'This is ')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_This is_1'), 'This is n')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_This is_1 (1)'), 'This is n')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_This is n'), 'This is ne')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_This is n (1)'), 'This is ne')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_This is ne'), 'This is new')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_This is ne (1)'), 'This is new')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_This is new'), 'This is new ')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_This is new (1)'), 'This is new ')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_This is new_1'), 'This is new h')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_This is new_1 (1)'), 'This is new h')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_This is new h'), 'This is new he')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_This is new h (1)'), 'This is new he')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_This is new he'), 'This is new hea')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_This is new he (1)'), 'This is new hea')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_This is new hea'), 'This is new head')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_This is new hea (1)'), 'This is new head')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_This is new head'), 'This is new heade')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_This is new head (1)'), 'This is new heade')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/textarea_This is new heade'), 'This is new header')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_This is new heade (1)'), 'This is new header')
 
-WebUI.click(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/button_Save'))
+WebUI.click(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/button_Save (6)'))
+
+WebUI.click(findTestObject('Object Repository/Page_ Off-Topic - FirstTeam Mattermost/span_giabeuu updated the channel header to _886125'))
 
 WebUI.closeBrowser()
 

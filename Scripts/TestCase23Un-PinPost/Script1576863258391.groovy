@@ -20,21 +20,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cs300testautomatic.herokuapp.com/')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (23)'), 'giabeuu@gmail.com')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (47)'), 'giabeuu@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (23)'), 'GoUae4B8Jrc=')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (47)'), 'GoUae4B8Jrc=')
 
-WebUI.click(findTestObject('Page_Mattermost/button_Sign in (12)'))
+WebUI.click(findTestObject('Page_Mattermost/button_Sign in (34)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - FirstTeam Mattermost/a_ChannelsTest'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/div_Fi (18)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ ChannelsTest - FirstTeam Mattermost/button_ChannelsTest_channelHeaderPinButton'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/a_ChannelsTest (4)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ ChannelsTest - FirstTeam Mattermost/button_Pinned_SEARCH_button_8b3y5ekuc7rw9kh_b6bb8d'))
+WebUI.click(findTestObject('Object Repository/Page_ ChannelsTest - FirstTeam Mattermost/button_Add a channel description_channelHea_11db4d'))
 
-WebUI.click(findTestObject('Object Repository/Page_ ChannelsTest - FirstTeam Mattermost/button_Un-pin from channel'))
+WebUI.click(findTestObject('Object Repository/Page_ ChannelsTest - FirstTeam Mattermost/button_Pinned_SEARCH_button_ndx3uchketdr3dz_02c332'))
 
-WebUI.click(findTestObject('Object Repository/Page_ ChannelsTest - FirstTeam Mattermost/button_ChannelsTest_channelHeaderPinButton'))
+WebUI.click(findTestObject('Page_ ChannelsTest - FirstTeam Mattermost/button_Un-pin from channel (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_ ChannelsTest - FirstTeam Mattermost/span_There are no pinned messages yet'))
 
 WebUI.closeBrowser()
 

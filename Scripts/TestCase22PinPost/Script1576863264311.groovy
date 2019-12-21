@@ -20,17 +20,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cs300testautomatic.herokuapp.com/')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (22)'), 'giabeuu@gmail.com')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (46)'), 'giabeuu@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (22)'), 'GoUae4B8Jrc=')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (46)'), 'GoUae4B8Jrc=')
 
-WebUI.sendKeys(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (22)'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Page_Mattermost/button_Sign in (33)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - FirstTeam Mattermost/span_ChannelsTest'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/div_Fi (17)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ ChannelsTest - FirstTeam Mattermost/button_giabeuu_CENTER_button_8b3y5ekuc7rw9k_023a4c'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/a_ChannelsTest (3)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ ChannelsTest - FirstTeam Mattermost/button_Pin to channel'))
+WebUI.click(findTestObject('Page_ ChannelsTest - FirstTeam Mattermost/button_after_channelHeaderFlagButton (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_ ChannelsTest - FirstTeam Mattermost/button_giabeuu_SEARCH_button_ndx3uchketdr3d_16aaec'))
+
+WebUI.click(findTestObject('Page_ ChannelsTest - FirstTeam Mattermost/button_Pin to channel (3)'))
 
 WebUI.closeBrowser()
 
