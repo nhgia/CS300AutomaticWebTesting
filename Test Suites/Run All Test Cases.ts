@@ -292,17 +292,11 @@
    <testCaseLink>
       <guid>2d64e035-8d9e-431c-985a-9be0f4214c5d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TestCase41ReplyPostInChannel</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e9f00752-8c0e-45fe-b3cf-46c486c34776</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TestCase42UpdateStatusToOffline</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>820bf27e-ac25-45a6-bf9d-6d096008d3b3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TestCase42UpdateStatusToOffline</testCaseId>
