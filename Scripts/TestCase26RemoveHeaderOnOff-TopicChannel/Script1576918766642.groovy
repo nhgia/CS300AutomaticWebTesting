@@ -20,23 +20,49 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cs300testautomatic.herokuapp.com/')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (26)'), 'giabeuu@gmail.com')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (51)'), 'giabeuu@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (26)'), 'GoUae4B8Jrc=')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (51)'), 'GoUae4B8Jrc=')
 
-WebUI.click(findTestObject('Page_Mattermost/button_Sign in (15)'))
+WebUI.click(findTestObject('Page_Mattermost/button_Sign in (38)'))
 
-WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/div_Fi (11)'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/div_Fi (21)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - FirstTeam Mattermost/a_Off-Topic'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/a_Off-Topic (5)'))
 
-WebUI.click(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/span_Off-Topic_channelHeaderDropdownIcon (2)'))
+WebUI.click(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/button_Off-Topic (1)'))
 
-WebUI.click(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/button_Edit Channel Header (2)'))
+WebUI.click(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/button_Edit Channel Header (6)'))
 
-WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Edited Header (1)'), '')
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Edited Header (4)'), 'Edited Heade')
 
-WebUI.click(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/button_Save (3)'))
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Edited Heade (5)'), 'Edited Head')
+
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Edited Head (5)'), 'Edited Hea')
+
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Edited Hea (5)'), 'Edited He')
+
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Edited He (5)'), 'Edited H')
+
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Edited H (5)'), 'Edited ')
+
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Edited (5)'), 'Edited')
+
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Edited_1 (5)'), 'Edite')
+
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Edite (5)'), 'Edit')
+
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Edit (5)'), 'Edi')
+
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Edi (5)'), 'Ed')
+
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_Ed (5)'), 'E')
+
+WebUI.setText(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/textarea_E (5)'), '')
+
+WebUI.click(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/button_Save (8)'))
+
+WebUI.click(findTestObject('Page_ Off-Topic - FirstTeam Mattermost/span_giabeuu removed the channel header (wa_7482fb (1)'))
 
 WebUI.closeBrowser()
 

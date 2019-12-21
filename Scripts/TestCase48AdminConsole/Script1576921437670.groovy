@@ -20,19 +20,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cs300testautomatic.herokuapp.com/')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (34)'), 'giabeuu@gmail.com')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (52)'), 'giabeuu@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (34)'), 'GoUae4B8Jrc=')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (52)'), 'GoUae4B8Jrc=')
 
-WebUI.click(findTestObject('Page_Mattermost/button_Sign in (23)'))
+WebUI.sendKeys(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (52)'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/div_Fi (12)'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/button_giabeuu_style--none sidebar-header-d_0f4080 (3)'))
 
-WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/button_giabeuu_style--none sidebar-header-d_0f4080 (1)'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/a_System Console (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - FirstTeam Mattermost/a_System Console'))
-
-WebUI.click(findTestObject('Object Repository/Page_System Console - Mattermost/span_System Console'))
+WebUI.click(findTestObject('Page_System Console - Mattermost/span_System Console (1)'))
 
 WebUI.closeBrowser()
 

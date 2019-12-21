@@ -20,15 +20,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cs300testautomatic.herokuapp.com/')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (30)'), 'giabeuu@gmail.com')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (44)'), 'giabeuu@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (30)'), 'GoUae4B8Jrc=')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (44)'), 'GoUae4B8Jrc=')
 
-WebUI.click(findTestObject('Page_Mattermost/button_Sign in (19)'))
+WebUI.click(findTestObject('Page_Mattermost/button_Sign in (31)'))
 
-WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/span__status status-edit edit (1)'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/div__MenuWrapper (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - FirstTeam Mattermost/button_Do Not DisturbDisables Desktop and P_5af217'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/button_Do Not DisturbDisables Desktop and P_5af217 (1)'))
 
 WebUI.closeBrowser()
 

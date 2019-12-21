@@ -340,7 +340,7 @@
    <testCaseLink>
       <guid>95c35f52-24d7-4bc1-b5d8-e3bfca2539fb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TestCase49LoginMultipleUsers</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

@@ -20,15 +20,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cs300testautomatic.herokuapp.com/')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (32)'), 'giabeuu@gmail.com')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (45)'), 'giabeuu@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (32)'), 'GoUae4B8Jrc=')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (45)'), 'GoUae4B8Jrc=')
 
-WebUI.click(findTestObject('Page_Mattermost/button_Sign in (21)'))
+WebUI.click(findTestObject('Page_Mattermost/button_Sign in (32)'))
 
-WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/span__status status-edit edit (2)'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/div__MenuWrapper (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - FirstTeam Mattermost/button_Away'))
+WebUI.click(findTestObject('Page_ Town Square - FirstTeam Mattermost/button_Away (1)'))
 
 WebUI.closeBrowser()
 
